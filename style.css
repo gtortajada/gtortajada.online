@@ -131,6 +131,8 @@ ul li a {
     font-weight: 500;
 
     transition: background 0.2s;
+
+    gap: 8px;
 }
 
 ul li a:hover {

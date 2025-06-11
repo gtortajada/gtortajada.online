@@ -1,76 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="dark">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desenvolvedor Front-end - Gustavo Tortajada</title>
 
-    <meta name="description"
-        content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js. LinkedIn, Github, Instagram e Portifólio profissional.">
-    <meta name="keywords"
-        content="desenvolvedor front-end, front end developer, desenvolvimento web, front end Maringá, Gustavo Tortajada">
-    <meta name="author" content="Gustavo Tortajada">
+    <meta
+      name="description"
+      content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js. LinkedIn, Github, Instagram e Portifólio profissional."
+    />
+    <meta
+      name="keywords"
+      content="desenvolvedor front-end, front end developer, desenvolvimento web, front end Maringá, Gustavo Tortajada"
+    />
+    <meta name="author" content="Gustavo Tortajada" />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gtortajada.online">
-    <meta property="og:title" content="Portifólio - Gustavo Tortajada">
-    <meta property="og:description" content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js.">
-    <meta property="og:image" content="https://gtortajada.online/img/preview.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gtortajada.online" />
+    <meta property="og:title" content="Portifólio - Gustavo Tortajada" />
+    <meta
+      property="og:description"
+      content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js."
+    />
+    <meta
+      property="og:image"
+      content="https://gtortajada.online/img/preview.jpg"
+    />
 
-    <link rel="canonical" href="https://gtortajada.online">
+    <link rel="canonical" href="https://gtortajada.online" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-</head>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
 
-<body>
+  <body>
     <div id="container">
-        <div id="profile">
-            <img src="./devLinks/avatar.png" alt="Foto de perfil">
-            <p>Gustavo Tortajada</p>
-        </div>
-        <div id="switch" onclick="toggleMode()">
-            <button></button>
-            <span></span>
-        </div>
-        <ul>
-             <li>
-                <a href="https://gtortajada.online/portifolio.html" target="_blank"><ion-icon
-                        name="briefcase-outline"></ion-icon>Portifólio</a>
-            </li>
+      <div id="profile">
+        <img src="./devLinks/avatar.png" alt="Foto de perfil" />
+        <p>Gustavo Tortajada</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <p><ion-icon name="briefcase-outline"></ion-icon></p>
+          <p>Portifólio</p>
+          <a
+            href="https://gtortajada.online/portifolio.html"
+            target="_blank"
+            class="fullHeightAndWidthCard"
+          ></a>
+        </li>
 
-            <li>
-                <a href="https://www.linkedin.com/in/gustavo-tortajada" target="_blank"><ion-icon name="logo-linkedin">
-                    </ion-icon>LinkedIn</a>
-            </li>
+        <li>
+          <p><ion-icon name="logo-linkedin"> </ion-icon></p>
+          <p>LinkedIn</p>
+          <a
+            href="https://www.linkedin.com/in/gustavo-tortajada"
+            target="_blank"
+            class="fullHeightAndWidthCard"
+          ></a>
+        </li>
 
-            <li>
-                <a href="https://github.com/gtortajada" target="_blank"><ion-icon
-                        name="logo-github"></ion-icon>GitHub</a>
-            </li>
+        <li>
+          <p><ion-icon name="logo-github"></ion-icon></p>
+          <p>GitHub</p>
+          <a
+            href="https://github.com/gtortajada"
+            target="_blank"
+            class="fullHeightAndWidthCard"
+          ></a>
+        </li>
 
-            <li>
-                <a href="https://wa.me/5544991528019?text=Olá%20Gustavo!%0AEstou%20entrando%20em%20contato%20através%20do%20seu%20portifólio." target="_blank"><ion-icon
-                        name="logo-whatsapp"></ion-icon>WhatsApp</a>
-            </li>     
-        </ul>
+        <li>
+          <p><ion-icon name="logo-whatsapp"></ion-icon></p>
+          <p>WhatsApp</p>
+          <a
+            href="https://wa.me/5544991528019?text=Olá%20Gustavo!%0AEstou%20entrando%20em%20contato%20através%20do%20seu%20portifólio."
+            target="_blank"
+            class="fullHeightAndWidthCard"
+          ></a>
+        </li>
+      </ul>
 
-        <hr>
-        <footer>
-            Copyright ©
-            <script>document.write(new Date().getFullYear())</script> by Gustavo Tortajada.
-        </footer>
+      <hr />
+      <footer>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        by Gustavo Tortajada.
+      </footer>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="/script.js"></script>
-</body>
-
+  </body>
 </html>

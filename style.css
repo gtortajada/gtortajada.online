@@ -132,8 +132,6 @@ ul li {
     transition: background 0.2s;
     
     gap: 8px;
-    
-    flex-direction: column;
 }
 
 ul li:hover {

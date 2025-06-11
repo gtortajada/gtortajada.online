@@ -1,69 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="dark">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio - Gustavo Tortajada</title>
 
-    <meta name="description"
-        content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js. LinkedIn, Github, Instagram e Portifólio profissional.">
-    <meta name="keywords"
-        content="desenvolvedor front-end, front end developer, desenvolvimento web, front end Maringá, Gustavo Tortajada">
-    <meta name="author" content="Gustavo Tortajada">
+    <meta
+      name="description"
+      content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js. LinkedIn, Github, Instagram e Portifólio profissional."
+    />
+    <meta
+      name="keywords"
+      content="desenvolvedor front-end, front end developer, desenvolvimento web, front end Maringá, Gustavo Tortajada"
+    />
+    <meta name="author" content="Gustavo Tortajada" />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gtortajada.online">
-    <meta property="og:title" content="Gustavo Tortajada - Desenvolvedor Front-end">
-    <meta property="og:description" content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js.">
-    <meta property="og:image" content="https://gtortajada.online/img/preview.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gtortajada.online" />
+    <meta
+      property="og:title"
+      content="Gustavo Tortajada - Desenvolvedor Front-end"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvedor Front End - JavaScript - TypeScript - React.js - Next.js."
+    />
+    <meta
+      property="og:image"
+      content="https://gtortajada.online/img/preview.jpg"
+    />
 
-    <link rel="canonical" href="https://gtortajada.online">
+    <link rel="canonical" href="https://gtortajada.online" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-</head>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
 
-<body>
+  <body>
     <div id="container">
-        <div id="switch" onclick="toggleMode()">
-            <button></button>
-            <span></span>
-        </div>
-        <div id="profile">
-            <h2>Projetos execultados</h2>
-        </div>
-        <ul>
-            <li>
-                <h4>Advocacia Assunção</h4>
-                <p>Web site para advocacia feito utilizando as tecnologias TypeScript, Chakra UI, Next.js e React.</p>
-                <p>Visitar o site</p>
-                <a class="fullHeightAndWidthCard" href="https://advocaciaassuncao.com.br" target="_blank"></a>
-            </li>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <div id="profile">
+        <h2>Projetos execultados</h2>
+      </div>
+      <ul>
+        <li class="flex-column-container">
+          <h4>Porkin App</h4>
+          <p>
+            Aplicativo de controle de gastos pessoais desenvolvido para estudo.
+            Feito utilizando as tecnologias Next.js, React, TypeScript,
+            NextAuth.js, MongoDB e Mantine UI.
+          </p>
+          <p>Visitar o site</p>
+          <a
+            class="fullHeightAndWidthCard flex-column-container"
+            href="https://app.gtortajada.online"
+            target="_blank"
+          ></a>
+        </li>
+        <li class="flex-column-container">
+          <h4>Advocacia Assunção</h4>
+          <p>
+            Web site para advocacia feito utilizando as tecnologias TypeScript,
+            Chakra UI, Next.js e React.
+          </p>
+          <p>Visitar o site</p>
+          <a
+            class="fullHeightAndWidthCard"
+            href="https://advocaciaassuncao.com.br"
+            target="_blank"
+          ></a>
+        </li>
 
-            <li>
-                <h4>GalileoSoft</h4>
-                <p>Manutenção, melhorias e correção de incompatibilidade em site de empresa de software, utilizando as tecnologias TailwindCSS, TypeScript, Node.js, Next.js e React.</p>
-                <p>Visitar o site</p>
-                <a class="fullHeightAndWidthCard" href="https://www.galileosoft.com.br" target="_blank"></a>
-            </li>
-        </ul>
+        <li class="flex-column-container">
+          <h4>GalileoSoft</h4>
+          <p>
+            Manutenção, melhorias e correção de incompatibilidade em site de
+            empresa de software, utilizando as tecnologias TailwindCSS,
+            TypeScript, Node.js, Next.js e React.
+          </p>
+          <p>Visitar o site</p>
+          <a
+            class="fullHeightAndWidthCard"
+            href="https://www.galileosoft.com.br"
+            target="_blank"
+          ></a>
+        </li>
+      </ul>
 
-        <hr>
-        <footer>
-            Copyright ©
-            <script>document.write(new Date().getFullYear())</script> by Gustavo Tortajada.
-        </footer>
+      <hr />
+      <footer>
+        <a href="https://gtortajada.online" class="centralized">
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          by Gustavo Tortajada.
+        </a>
+      </footer>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="/script.js"></script>
-</body>
-
+  </body>
 </html>

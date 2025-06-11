@@ -86,7 +86,7 @@ body * {
     animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover{
+#switch button:hover {
     outline: 8px solid var(--highlight-color)
 }
 
@@ -128,15 +128,19 @@ ul li {
     -webkit-backdrop-filter: blur(4px);
 
     font-weight: 500;
-    
+
     transition: background 0.2s;
-    
+
     gap: 8px;
 }
 
 ul li:hover {
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
+}
+
+li.flex-column-container {
+    flex-direction: column;
 }
 
 a {
@@ -151,6 +155,9 @@ a.fullHeightAndWidthCard {
     width: 100%;
 }
 
+a.centralized {
+    justify-content: center;
+}
 p {
     text-align: center;
 }

@@ -1,5 +1,5 @@
 Site modelo "Linktree".
-O objetivo do site é ter presença online, unificar minhas formas de contato e expor meu portifólio.
+O objetivo do site é ter presença online, unificar minhas formas de contato e expor meu portfólio.
 
 Para que o projeto funcione em sua máquina:
 1. Clone o repositório.

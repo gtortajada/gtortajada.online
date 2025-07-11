@@ -2,17 +2,7 @@
   "routes": [
     {
       "src": "/portfolio",
-      "dest": "/portfolio.html",
-      "headers": {
-        "Content-Type": "text/html"
-      }
-    },
-    {
-      "src": "/(.*)",
-      "headers": {
-        "Content-Type": "text/html"
-      },
-      "continue": true
+      "dest": "/portfolio.html"
     }
   ]
 }
